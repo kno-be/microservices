@@ -6,7 +6,7 @@ const PostCreate = () => {
             <h1 className='text-gray-700 text-xl font-bold mb-5'> Create Post </h1>
             <div className='mb-4'>
                 <label className="block text-gray-700 text-sm font-bold mb-2" for="Title">
-                   Title
+                   Title:
                 </label>
                 <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="title" type="text" placeholder="Title"></input>
             </div>
