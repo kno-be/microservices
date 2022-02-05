@@ -1,11 +1,12 @@
 import React from "react";
 import './index.css'
-import PostCreate from './PostCreate'
+import PostCreate from './components/PostCreate'
 
 const App = () => {
-    return <div>
+    return (
+    <div className="bg-slate-600 w-full flex flex-col justify-center items-center">
         <PostCreate/>
-    </div>
+    </div>)
 }
 
 export default App;
